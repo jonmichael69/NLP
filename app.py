@@ -81,7 +81,7 @@ html_temp = """
    </div>
    """
 st.markdown(html_temp,unsafe_allow_html=True)
-st.header("Restaurant Review System ")
+st.header("NLP Review System ")
   
   
 text = st.text_area("Writre Review of Restaurant")
