@@ -84,7 +84,7 @@ st.markdown(html_temp,unsafe_allow_html=True)
 st.header("NLP Review System ")
   
   
-text = st.text_area("Writre Review of Restaurant")
+text = st.text_area("Writre Review ")
 
 if st.button("Review Analysis"):
   result=review(text)
